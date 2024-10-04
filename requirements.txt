@@ -5,4 +5,3 @@ fpdf==1.7.2
 googletrans==4.0.0-rc1
 pyttsx3==2.90
 streamlit==1.10.0
-tokenizers @ file:///path/to/tokenizers-0.7.0-cp310-cp310-linux_x86_64.whl
