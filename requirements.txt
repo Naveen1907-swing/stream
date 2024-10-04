@@ -1,7 +1,7 @@
-streamlit==1.14.0
-youtube_transcript_api==0.6.1
-transformers==4.21.3
+http.client
+youtube-transcript-api==0.4.1
+transformers==4.12.3
 fpdf==1.7.2
 googletrans==4.0.0-rc1
 pyttsx3==2.90
-pip==24.2
+streamlit==1.10.0
