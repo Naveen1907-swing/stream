@@ -1,5 +1,5 @@
-import http.client
 import streamlit as st
+import http.client
 from youtube_transcript_api import YouTubeTranscriptApi
 from transformers import pipeline
 from fpdf import FPDF
@@ -156,5 +156,3 @@ if st.button("Send"):
         if st.button("Hindi"):
             hindi_response = translate_text(chatgpt_response, 'hi')
             st.write("Hindi: " + hindi_response)
-
-# The app runs automatically when called with 'streamlit run app.py'
